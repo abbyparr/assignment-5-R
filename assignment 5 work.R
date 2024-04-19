@@ -69,7 +69,7 @@ heatmap(read_data1, scale = 'row', main="gene expression by sample")
 
 #F create a clustermap 
 #visualizing gene expression by sample
-clustermap(read_data1, main= "visualizing gene expression by sample")
+clustermap(read_data1, main = "visualizing gene expression by sample")
 
 #E analysis: 
 #While analyzing the code, I noticed that DEGs by chromosome have a wide distribution. I also noticed that upregulation and downregulation in tumor samples also has a wide distribution and effect. 
