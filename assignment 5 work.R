@@ -15,7 +15,6 @@ change <- merge(read_data1, read_data3, by = "SampleID")
 change$SampleID <- change$Phenotype
 print(change)
 
-
 #C split the merged data 
 split_merge <- split(read_data1, read_data1$Phenotype)
 tumor <- split_merge[['tumor']]
